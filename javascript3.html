@@ -4,9 +4,12 @@
   </head>
   <body>
     <script type="text/javascript">
-      var a=10;
-      var b=8;
-      document.write(a+b);
+      function nibai(x) {
+        var y=x*2;
+        return y;
+      }
     </script>
+    <input type="text" id="num">
+    <input type="button" value="２倍にする" onclick="alert(nibai(num.value))">
   </body>
 </html>
